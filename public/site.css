@@ -2,14 +2,21 @@
   padding: 15px;
   margin-left: auto;
   margin-right: auto;
-  width: 15em;
   font-family: monospace;
   font-size: 11px;
   list-style-type: none;
 }
 
+.tiny {
+  width: 20em;
+}
+
+.medium {
+  width: 50em;
+}
+
 .box {
-  border-style: solid;
+  border-style: dotted;
   border-width: 1px;
 }
 
@@ -24,4 +31,5 @@ a:hover {
 
 li {
   margin: 0 0 6px 0;
+  white-space: nowrap;
 }

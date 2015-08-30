@@ -10,6 +10,14 @@
   app.get('/', function(req, res) {
     res.sendFile(path.join(__dirname + '/public/site.html'));
   });
+
+  app.get('/resume', function(req, res) {
+    res.sendFile(path.join(__dirname + '/public/resume.pdf'));
+  });
+  
+  app.get('/facerecognition', function(req, res) {
+    res.sendFile(path.join(__dirname + '/public/facerecognition.html'));
+  });
   
   var server = app.listen(8000);
 })();
